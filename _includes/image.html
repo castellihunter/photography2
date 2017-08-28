@@ -1,0 +1,8 @@
+            {% for image in site.data.info.images %}
+                {% assign index = forloop.index | modulo: 3 %}
+                {% if index == include.n %}
+                    <a href="#" class="img" data-url="{{ image.original }}">
+                        <img src="{{ image.thumbs }}" alt="{{ image.alt }}">
+                    </a>
+                {% endif %}
+            {% endfor %}

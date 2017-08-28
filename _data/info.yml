@@ -1,0 +1,74 @@
+owner: "Jason"
+profile-pic: "/img/me.JPG"
+email: "valleespinozajefferson@gmail.com"
+direction: "123 6th St.<br />Melbourne, FL 32904"
+
+# Icons from Fontawesome
+social-networks:
+    -
+        icon: "fa-facebook-official"
+        url: "https://facebook.com"
+    -
+        icon: "fa-instagram"
+        url: "https://instagram.com"
+    -
+        icon: "fa-twitter-square"
+        url: "https://twitter.com"
+
+images:
+    -
+        thumbs: "/img/showcase/thumbs/1.jpg"
+        original: "/img/showcase/1.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/2.jpg"
+        original: "/img/showcase/2.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/3.jpg"
+        original: "/img/showcase/3.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/4.jpg"
+        original: "/img/showcase/4.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/5.jpg"
+        original: "/img/showcase/5.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/6.jpg"
+        original: "/img/showcase/6.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/7.jpg"
+        original: "/img/showcase/7.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/8.jpg"
+        original: "/img/showcase/8.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/9.jpg"
+        original: "/img/showcase/9.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/10.jpg"
+        original: "/img/showcase/10.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/11.jpg"
+        original: "/img/showcase/11.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/13.jpg"
+        original: "/img/showcase/13.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/14.jpg"
+        original: "/img/showcase/14.jpg"
+        alt: "" # Short description
+    -
+        thumbs: "/img/showcase/thumbs/15.jpg"
+        original: "/img/showcase/15.jpg"
+        alt: "" # Short description

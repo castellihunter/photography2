@@ -1,0 +1,51 @@
+---
+---
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: "Raleway", sans-serif
+
+body, html
+    min-height: 100%
+    height: 100%
+
+.container
+    display: flex
+    flex-direction: column
+    width: 87%
+    max-width: 1140px
+    margin: 0 auto
+
+    .row
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        @media(max-width: 768px)
+            justify-content: center
+
+        .col
+            width: 31.5789473684%
+            max-width: 360px
+            margin: 0 1.31578947368%
+            &:first-child
+                margin-left: 0
+            &:last-child
+                margin-right: 0
+            @media(max-width: 768px)
+                width: percentage(((1140 / 2) - 30) / 1140)
+            @media(max-width: 500px)
+                width: 100%
+
+.title
+    display: block
+    margin: 0 auto 40px
+    text-align: center
+    font-size: 32px
+    font-weight: 600
+
+@import menu
+@import bio
+@import work
+@import footer

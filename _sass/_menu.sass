@@ -1,0 +1,60 @@
+#main-menu
+    display: flex
+    flex-direction: column
+    justify-content: center
+    z-index: 1
+    position: fixed
+    top: 0
+    bottom: 0
+    right: 15px
+
+    #menu
+        display: none
+        position: absolute
+        top: 15px
+        &:hover
+            left: 0
+
+    .btns
+        position: relative
+        transition: all 0.15s ease-in-out
+
+        #profile
+            background-image: url("/img/me.jpg")
+
+    @media(max-width: 1024px)
+        #menu
+            display: flex
+
+        .btns
+            left: 100px
+
+    .open
+        left: 0
+
+    .circle-menu
+        display: flex
+        width: 68px
+        height: 68px
+        position: relative
+        left: 0
+        border-radius: 50%
+        margin: 10px 0
+        background: #18181d
+        text-decoration: none
+        outline: none
+        transition: left 0.15s ease-in-out
+        &:hover
+            left: 10px
+            @media(max-width: 1024px)
+                left: 0
+        &::after
+            content: ""
+            position: fixed
+            width: 68px
+            height: 68px
+
+        i
+            margin: auto
+            font-size: 26px
+            color: white
